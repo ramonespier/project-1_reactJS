@@ -68,8 +68,8 @@ class App extends Component {
 
 
     this.timeOutUpdate = setTimeout(() => {
-      this.setState({ posts, counter: counter + 1 })
-    }, 500);
+      this.setState({ posts, counter: counter + 1})
+    }, 1500);
   }
 
   render() { //na render eu so posso retornar 1 elemento root (nesse caso, App); a menos que eu use fragmentos (<> </>)
