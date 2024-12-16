@@ -1,4 +1,6 @@
-import { PostCard } from '../PostCard';
+import './styles.css'
+
+import { PostCard } from '../PostCard'
 
 export const Posts = ({ posts }) => (
     <div className="posts">
@@ -8,6 +10,7 @@ export const Posts = ({ posts }) => (
                 body={post.body}
                 key={post.id}
                 cover={post.cover}
+                id={post.id}
             // post={post}
             />
         ))}
